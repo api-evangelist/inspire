@@ -1,7 +1,12 @@
 aid: inspire
 name: Inspire
-description: Inspire is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Inspire (Inspire Clean Energy) is a consumer clean-energy company on a mission
+  to transform the way people access clean energy and accelerate a net-zero carbon future.
+  It gives residential customers access to renewable energy for their home electricity
+  supply through flat-rate subscription plans designed to deliver predictability and reduce
+  exposure to electricity rate volatility. Surfaced as a portfolio company of Obvious Ventures
+  and added to the API Evangelist network; enrichment found no public API, developer portal,
+  documentation, or OpenAPI surface — this is a non-API consumer brand.
 url: https://raw.githubusercontent.com/api-evangelist/inspire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,31 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-api: false
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.inspirecleanenergy.com/_next/static/media/inspire-logo-primary.b2e4c3d1.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Clean Energy
+- Renewable Energy
+- Electricity
+- Utilities
+- Sustainability
+- Climate
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.inspirecleanenergy.com
+- type: About
+  url: https://www.inspirecleanenergy.com/about
+- type: Blog
+  url: https://www.inspirecleanenergy.com/blog
+- type: Pricing
+  url: https://www.inspirecleanenergy.com/plans
+- type: SignUp
   url: https://helloinspire.com
+- type: TermsOfService
+  url: https://www.inspirecleanenergy.com/policies/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.inspirecleanenergy.com/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
